@@ -1,7 +1,7 @@
-const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
-const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
-const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
-const taxiFareApiUrl = 'https://YOUR_API_URL.herokuapp.com/predict_fare';
+const algoliaPlacesApiAppId = 'ESPE9YCS3X';
+const algoliaPlacesApiKey = '884cc587b67c88ee09d2f67618354a13';
+const mapboxApiToken = 'pk.eyJ1IjoiZmVsaXBlZHMiLCJhIjoiY2tnd2FiazFxMDg1cTMwcnJ4Ymh5a29uNSJ9.cZVuZM7PuGBFZZcq8spdTg';
+const taxiFareApiUrl = 'https://taxifareapi99.herokuapp.com/predict_fare';
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
